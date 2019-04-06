@@ -4,7 +4,7 @@ import publishers.AbstractPublisher;
 
 
 /**
- * @author kkontog, ktsiouni, mgrigori 
+ * @author kkontog, ktsiouni, mgrigori, Syeda Nehal Hussain 
  *
  */
 public class EventFactory {
