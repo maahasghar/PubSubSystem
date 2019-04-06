@@ -2,7 +2,7 @@ package states.subscriber;
 
 
 /**
- * @author kkontog, ktsiouni, mgrigori
+ * @author kkontog, ktsiouni, mgrigori, Maah Asghar
  * creates new States
  * contributes to the State design pattern
  * implements the FactoryMethod design pattern   
@@ -19,6 +19,10 @@ public class StateFactory {
 		switch(stateName) {
 			case astate : 
 				return new AState();
+			case bstate :
+				return new BState();
+			case cstate :
+				return new CState();
 			default :
 				return new DefaultState();
 		}
