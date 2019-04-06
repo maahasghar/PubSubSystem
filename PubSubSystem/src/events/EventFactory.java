@@ -21,7 +21,14 @@ public class EventFactory {
 	 */
 	public static AbstractEvent createEvent(EventType eventType, int eventPublisherId, EventMessage payload) {
 
-		return null;
+		switch(eventType) {
+		case TypeA:
+			return new EventTypeA(EventIDMaker.getNewEventID(), eventPublisherId, payload);
+		case TypeB:
+			return new EventTypeB(EventIDMaker.getNewEventID(), eventPublisherId, payload);
+		default :
+			return new EventTypeC(EventIDMaker.getNewEventID(), eventPublisherId, payload);
+		}
 	}
 	
 }
