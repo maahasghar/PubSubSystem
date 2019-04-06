@@ -2,7 +2,7 @@ package events;
 
 
 /**
- * @author kkontog, ktsiouni, mgrigori
+ * @author kkontog, ktsiouni, mgrigori, Syeda Nehal Hussain
  * the enumeration of available options that can be used to create
  * an Event using the {@link EventFactory#createEvent(EventType, int, EventMessage)} 
  * method
@@ -11,5 +11,5 @@ package events;
  *  
  */
 public enum EventType {
-	TypeB, TypeA
+	TypeC,TypeB, TypeA
 }
